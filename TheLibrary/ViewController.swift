@@ -17,7 +17,6 @@ class ViewController: UIViewController {
     @IBOutlet weak var numberInput: UITextField!
     
     var library = Library()
-//    var book: [Book] = []
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,26 +25,32 @@ class ViewController: UIViewController {
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
     @IBAction func viewLibrary(sender: AnyObject) {
             print(library.books)
-            libraryList.text! = "\(library.getBooks())"
+        
+        libraryList.text! = "\(library.getBooks())"
         
         }
 
     @IBAction func addBook(sender: AnyObject) {
-        library.addBook()
         
-//        titleInput.text = book.title
-//        authorInput.text = book.authors
-//        genreInput.text = book.genre
-//        numberInput.text = book.length
-    }
+            let title = titleInput.text
+            let author = authorInput.text
+            let genre = genreInput.text
+            let pages = numberInput.text
 
         
+            "\(library.addBook(title!, bookAuthor: author!, bookGenre: genre!, bookLength: pages!))"
+        
+
     }
+    
+
+        
+}
     
     
 

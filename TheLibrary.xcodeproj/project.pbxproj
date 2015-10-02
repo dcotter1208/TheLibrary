@@ -14,7 +14,6 @@
 		C04947E71BBC54C300B880CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C04947E51BBC54C300B880CB /* LaunchScreen.storyboard */; };
 		C04947F21BBC54C300B880CB /* TheLibraryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04947F11BBC54C300B880CB /* TheLibraryTests.swift */; };
 		C04947FD1BBC54C300B880CB /* TheLibraryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C04947FC1BBC54C300B880CB /* TheLibraryUITests.swift */; };
-		C049480B1BBC5AE300B880CB /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = C049480A1BBC5AE300B880CB /* Book.swift */; settings = {ASSET_TAGS = (); }; };
 		C049480D1BBC5AF100B880CB /* Library.swift in Sources */ = {isa = PBXBuildFile; fileRef = C049480C1BBC5AF100B880CB /* Library.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
@@ -49,7 +48,6 @@
 		C04947F81BBC54C300B880CB /* TheLibraryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheLibraryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C04947FC1BBC54C300B880CB /* TheLibraryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheLibraryUITests.swift; sourceTree = "<group>"; };
 		C04947FE1BBC54C400B880CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C049480A1BBC5AE300B880CB /* Book.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
 		C049480C1BBC5AF100B880CB /* Library.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Library.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +101,6 @@
 			children = (
 				C04947DC1BBC54C300B880CB /* AppDelegate.swift */,
 				C04947DE1BBC54C300B880CB /* ViewController.swift */,
-				C049480A1BBC5AE300B880CB /* Book.swift */,
 				C049480C1BBC5AF100B880CB /* Library.swift */,
 				C04947E01BBC54C300B880CB /* Main.storyboard */,
 				C04947E31BBC54C300B880CB /* Assets.xcassets */,
@@ -264,7 +261,6 @@
 				C04947DF1BBC54C300B880CB /* ViewController.swift in Sources */,
 				C049480D1BBC5AF100B880CB /* Library.swift in Sources */,
 				C04947DD1BBC54C300B880CB /* AppDelegate.swift in Sources */,
-				C049480B1BBC5AE300B880CB /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
